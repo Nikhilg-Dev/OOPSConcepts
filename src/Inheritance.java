@@ -5,7 +5,7 @@ class Shape1{
 }
 class Quadrilateral1 extends  Shape1{
     static final int side=4;
-    public int number=8;
+    public int number=9;
     public void numberOfSides(){
         System.out.println("it has "+side+" sides");
     }
