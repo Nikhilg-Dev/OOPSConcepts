@@ -1,18 +1,18 @@
 class Info{
     String name;
     int age;
-    boolean student;
+    boolean status;
     public Info(String name,int age,boolean status ) {
         this.age=age;
         this.name=name;
-        student=status; //// without this
+        status=status; //// without this
     }
 
 
     public Info(Info p){   /////// copy constructor
         this.name=p.name;
         this.age=p.age;
-        this.student= p.student;
+        this.status= p.status;
     }
 
 
@@ -23,7 +23,7 @@ class Info{
         System.out.println(age);
     }
     public void status(){
-        System.out.println(student);
+        System.out.println(status);
     }
 
 
